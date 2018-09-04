@@ -524,17 +524,37 @@ margin:0 auto;
 }
 
 .fotorama{
+<<<<<<< HEAD
 width:730px;
+=======
+<<<<<<< HEAD:css/style.css
+width:700px;
 height: 430px;
 position: relative;
+left:70px;
+=======
+width:790px;
+>>>>>>> 14d8a49ecec0be96d6052ead6d102d4cfe2ab94b
+height: 430px;
+position: relative;
+>>>>>>> 4a52928a459634c94fe55e7ec2ff2f269664b44d:graphite/css/style.css
 top: 20px;
     right:20px;
     
 }
 
 .textbox1{
+<<<<<<< HEAD:css/style.css
+  width:700px;
+  padding-left: 10px;
+=======
     padding-left:10px;
+<<<<<<< HEAD
   width:730px;
+=======
+  width:790px;
+>>>>>>> 4a52928a459634c94fe55e7ec2ff2f269664b44d:graphite/css/style.css
+>>>>>>> 14d8a49ecec0be96d6052ead6d102d4cfe2ab94b
   height: 170px;
   position: relative;
     top:20px;
