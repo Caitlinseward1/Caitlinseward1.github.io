@@ -19,7 +19,7 @@ body{
   z-index: 1;
   top:0;
   left:0;
-  background-color: #f3f3f3;
+  background-color: black;
   overflow-x: hidden;
   padding-top: 70px;
   transition: 0.5s;
@@ -34,7 +34,7 @@ body{
     text-transform: uppercase;
   font-family: 'Space Mono', monospace;
     font-weight: 500;
-  color: #000;
+  color: white;
   display:block;
   transition: 0.3s;
 }
@@ -447,11 +447,11 @@ left:40px;
   z-index: 1;
   top:0;
   left:0;
-  background-color: #f3f3f3;
+  background-color: black;
   overflow-x: hidden;
   padding-top: 70px;
   transition: 0.5s;
-    box-shadow: 5px 10px 18px grey;
+    box-shadow: 3px 5px 5px grey;
 }
 
 .sidenav a{
@@ -462,7 +462,7 @@ left:40px;
     text-transform: uppercase;
   font-family: 'Space Mono', monospace;
     font-weight: 500;
-  color: #000;
+  color: white;
   display:block;
   transition: 0.3s;
 }
@@ -800,7 +800,7 @@ display:block;
  left:150px;
  margin: 0 auto;
  height:130px;
- background-color: #f3f3f3 ;
+ background-color: black ;
 
 }
 
@@ -816,7 +816,7 @@ display:block;
 
 #logo1{
     display:block;
-  width:150px;
+  width:130px;
   height:47px;
   position: relative;
     right:140px;
@@ -837,7 +837,7 @@ bottom:10px;
   text-decoration: none;
   font-size: 12px;
   font-family: 'Space Mono', monospace;
-  color: #000;
+  color: white;
   display:block;
   transition: 0.3s;
   position:relative;
@@ -862,7 +862,7 @@ color:#a975ff;
   text-decoration: none;
   font-size: 12px;
   font-family: 'Space Mono', monospace;
-  color: #000;
+  color: white;
   display:block;
   transition: 0.3s;
 }
