@@ -13,7 +13,7 @@ body{
 }
 
 .sidenav{
-  height: 30%;
+  height: 35%;
   width:0;
   position:fixed;
   z-index: 1;
@@ -67,7 +67,7 @@ body{
   width:23.9425379%;
  position: relative;
    left:150px;
-    bottom:30px;
+    bottom:33px;
    
 
 }
@@ -75,21 +75,25 @@ body{
 
 
 .fotorama{
-width:95%;
+width:90%;
 height: 300px;
 position: relative;
 bottom:20px;
-    left:10px;
+    left:17px;
     margin:none;
 
 }
 
+#xsvg{
+  position:relative;
+    top:10px;   
+}
 
 svg{
-  width: 5.58659218%;
+  width: 6.00672753%;
   height:50px;
 fill: black;
-    position:relative;
+  
    
 }
 
@@ -133,8 +137,9 @@ background-color: #9547ff;
 
 
 p{
-  font-family:'Space Mono', monospace;
+  font-family:'Helvetica', sans-serif;
   font-size: 13px;
+    font-weight:300;
 }
 
 h3{
@@ -152,7 +157,9 @@ h4{
 }
 
 h5{
-font-family: 'Space Mono', monospace;
+font-family: 'Helvetica', sans-serif;
+    font-size:12px;
+    font-weight: 300;
 }
 
 
@@ -177,12 +184,22 @@ footer{
 
 .textbox1{
     height:125px;
-    width:350px;
+    width:335px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   bottom:70px;
-    left:12px;
+    left:17px;
   position: relative;
-  text-align: center;
+  text-align: left;
+}
+
+.textbox1 span{
+    position:relative;
+    left:20px;
+}
+
+.textbox1 p{
+    position:relative;
+    left:20px;
 }
 
 .intextbox1{
@@ -204,7 +221,7 @@ footer{
 .title1{
 font-size: 20px;
 text-transform: uppercase;
-margin-left:150px;
+margin-left:130px;
 position:relative;
     bottom:60px;
 }
@@ -213,7 +230,7 @@ position:relative;
 .imagebox1{
   width: 270px;
   height: 180px;
-  left: 70px;
+  left: 50px;
  bottom:40px;
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -229,20 +246,28 @@ position:relative;
   width:270px;
   height: 120px;
   position: relative;
-  left: 70px;
+  left: 50px;
     bottom:65px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-text-align: center;
+text-align: left;
 }
 
+.textbox2 span{
+    position:relative;
+    left:10px;
+}
 
+.textbox2 p{
+    position:relative;
+    left:10px;
+}
 
 
 
 .imagebox2{
   width: 270px;
   height: 180px;
-  left:70px;
+  left:50px;
   position: relative;
  bottom:20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -258,11 +283,20 @@ text-align: center;
   height: 120px;
   position: relative;
 bottom:42px;
- left:70px;
+ left:50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    text-align: left;
 }
 
+.textbox3 span{
+    position:relative;
+    left:10px;
+}
+
+.textbox3 p{
+    position:relative;
+    left:10px;
+}
 
 .title{
 display:none;
@@ -271,52 +305,6 @@ display:none;
 
 
 
-.nav2{
-  width:70px;
-  height:50px;
- position:relative;
-top:50px;
-    left:110px;
-}
-
-
-.nav2 a{
-  text-decoration: none;
-  font-size: 12px;
-  font-family: 'Space Mono', monospace;
-  color: #000;
-  display:block;
-  transition: 0.3s;
-
-}
-
-.nav2 a:hover{
-color:#a975ff;
-}
-
-
-.nav3{
-  width:200px;
-  height:50px;
-  position: relative;
- 
-   left:210px;
-}
-
-
-.nav3 a{
-  text-decoration: none;
-  font-size: 12px;
-  font-family: 'Space Mono', monospace;
-  color: #000;
-  display:block;
-  transition: 0.3s;
-}
-
-
-.nav3 a:hover{
-color:#a975ff;
-}
 
 
 
@@ -427,7 +415,7 @@ left:40px;
     height:60px;
     width:70px;
     position:relative;
-    left:160px;
+    left:140px;
     fill:black;
 }
 
@@ -539,13 +527,24 @@ top: 20px;
 
   width:700px;
   padding-left: 10px;
-height: 170px;
+height: 180px;
   position: relative;
     top:20px;
 left:95px;
-  text-align: center;
+  text-align: left;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+    
+    .textbox1 span{
+        position:relative;
+        left:30px;
+    }
+    
+    .textbox1 p{
+       position:relative;
+        top:10px;
+        left:30px;  
+    }
 
 .intextbox1{
   text-align: left;
@@ -581,8 +580,20 @@ left:95px;
   left: 50px;
   top:40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+  text-align: left;
 }
+    
+    
+    .textbox2 span{
+        position:relative;
+        left:20px;
+    }
+    
+    .textbox2 p{
+        position:relative;
+        top:10px;
+        left:20px;
+    }
 
 .imagebox2{
   width: 370px;
@@ -605,8 +616,19 @@ left:95px;
   left: 460px;
   bottom: 395px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    text-align: left;
 }
+    
+ .textbox3 span{
+        position:relative;
+        left:20px;
+    }
+    
+    .textbox3 p{
+        position:relative;
+        top:10px;
+        left:20px;
+    }
 
 .line{
   width:560px;
@@ -741,7 +763,7 @@ text-transform: uppercase;
 position: relative;
 height:5px;
   width:300px;
-  right:130px;
+  right:110px;
     top:10px;
 }
 
@@ -841,7 +863,7 @@ bottom:10px;
   display:block;
   transition: 0.3s;
   position:relative;
-  bottom:110px;
+  bottom:70px;
 }
 
 .nav2 a:hover{
@@ -898,7 +920,7 @@ svg:hover{
     height:80px;
     width:90px;
     position:relative;
-    bottom:60px;
+    bottom:90px;
     left:230px;
     fill:black;
 }
