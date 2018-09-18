@@ -13,7 +13,7 @@ body{
 }
 
 .sidenav{
-  height: 35%;
+  height: 40%;
   width:0;
   position:fixed;
   z-index: 1;
@@ -301,10 +301,6 @@ bottom:42px;
 .title{
 display:none;
 }
-
-
-
-
 
 
 
