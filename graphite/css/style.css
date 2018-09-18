@@ -421,7 +421,11 @@ left:40px;
 
 @media screen and (min-width:500px) {
 
-
+    #boxcontent{
+      display: flex;
+    justify-content: center;
+    align-items: center;   
+    }
 
 #container1{
     min-height:1500px;
