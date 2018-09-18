@@ -433,6 +433,8 @@ left:40px;
     justify-content: center;
     align-items: center;
     }
+    
+
 
 .sidenav{
   height: 40%;
@@ -477,7 +479,7 @@ left:40px;
 .icon{
   width: 30px;
   height: 30px;
-  top: 40px;
+ 
 }
 
 
@@ -509,12 +511,13 @@ body{
 }
 
 .box{
-background-color: red;
+background-color: white;
 width:900px;
 height: 1980px;
     position:relative;
 margin:0 auto;
 left:400px;
+    top:20px;
  
 }
 
@@ -524,7 +527,7 @@ height: 430px;
 position: relative;
 height: 430px;
 position: relative;
-top: 20px;
+top: 30px;
   left:80px;
     
 }
@@ -536,7 +539,7 @@ top: 20px;
 height: 180px;
   position: relative;
     top:20px;
-left:95px;
+left:75px;
   text-align: left;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -604,7 +607,7 @@ left:95px;
 .imagebox2{
   width: 370px;
   height: 250px;
-  left: 460px;
+  left: 440px;
   position: relative;
   bottom: 374.5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -619,7 +622,7 @@ left:95px;
   width:370px;
   height: 160px;
   position: relative;
-  left: 460px;
+  left: 440px;
   bottom: 395px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
@@ -689,7 +692,7 @@ left:20px;
 .right1{
      display:block;
   float:right;
-  right:390px;
+  right:350px;
   bottom:20px;
   position: relative;
 
@@ -718,7 +721,7 @@ position: relative;
   float:right;
   position: relative;
   height:150px;
-  right:340px;
+  right:300px;
     bottom:20px;
 }
 
@@ -748,7 +751,7 @@ height:300px;
   position: relative;
   height:150px;
   bottom:60px;
-  right:45px;
+  right:5px;
 }
 
 .title{
@@ -825,7 +828,8 @@ footer{
 display:block;
  position: relative;
  width:900px;
- left:150px;
+    top:1030px;
+right:459px;
  margin: 0 auto;
  height:130px;
  background-color: black ;
@@ -833,22 +837,14 @@ display:block;
 }
 
 
-.socialmedia{
-    display:block;
-  width:120px;
-  height:30px;
-  position: relative;
- right:130px;
-  top:70px;
-}
 
 #logo1{
     display:block;
   width:130px;
   height:47px;
   position: relative;
-    right:140px;
-bottom:10px;
+ left:10px;
+    padding-top:20px;
     
 }
 
@@ -869,7 +865,7 @@ bottom:10px;
   display:block;
   transition: 0.3s;
   position:relative;
-  bottom:70px;
+  bottom:30px;
 }
 
 .nav2 a:hover{
@@ -881,8 +877,8 @@ color:#a975ff;
   width:200px;
   height:50px;
   position: relative;
-  left: 720px;
-  bottom:85px;
+  left: 710px;
+  bottom:80px;
 }
 
 
@@ -904,6 +900,8 @@ color:#a975ff;
     
     #xsvg{
         position:relative;
+        left:300px;
+        bottom:30px;
       
     }   
     
