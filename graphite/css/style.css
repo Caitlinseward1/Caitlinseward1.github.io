@@ -425,20 +425,21 @@ footer{
 padding:10px;
  display:block; 
 position:relative;
-right:560px;
-top:140px;
-text-align: center;
+left:400px;
+    top:5px;
+text-align: left;
    
 }
     
 
 
 #webnav a{
+    padding-top:10px;
 text-decoration: none;
 display:block; 
 color:white;
 font-family: 'Space Mono', monospace;
-font-size:13px;
+font-size:20px;
 text-transform: uppercase;
 }
     
@@ -456,11 +457,11 @@ text-decoration: line-through;
     
 #logo{
     display:block;
-  width:130px;
-  height:50px;
+  width:150px;
+  height:60px;
   position: relative;
-left:400px;
-top:140px;
+left:390px;
+top:20px;
    
 }
 
@@ -473,6 +474,7 @@ body{
    background-attachment: fixed;
   margin:0;
   width:100vw;
+    min-height:500px;
 background-size: cover;
 }
 
@@ -481,9 +483,9 @@ background-size: cover;
         background-color: white;
         width:45%;
         margin: 0 auto;
-      
+
         position:relative;
-        bottom:170px;
+        bottom:270px;
     }
 
     .fotorama{
@@ -773,9 +775,9 @@ display:block;
  position: relative;
  width:100%;
    
-top:350px;
+top:380px;
  margin: 0 auto;
- height:200px;
+ height:275px;
  background-color: black ;
 
 }
@@ -868,6 +870,7 @@ text-decoration: line-through;
     right:10px;
 
 }
+
 
 
     
