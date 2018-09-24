@@ -1,17 +1,10 @@
 
-#container1{
-width: 100%; /* 1280px */
-margin: 0 auto;
-display:flex;
-justify-content: center;
-align-content: center;
-
-}
 
 
 #webnav{
     display:none;
 }
+
 
 
 .sidenav{
@@ -56,13 +49,9 @@ align-content: center;
 }
 
 
-.topnav {
-    display:block;
-    
-    width:100%;
-    
-    padding:none;
-
+.topnav a{
+  float: left;
+    padding-left:10px;
 
   
 }
@@ -73,7 +62,7 @@ align-content: center;
 }
 
 svg{
-  width: 5%;
+  width: 7%;
   fill: black;
   
    
@@ -84,17 +73,16 @@ svg:hover{
 }
 
 #logo{
-  width:5%;
-  margin: 0 auto;
-    position: relative;
-    bottom:40px;
-left:100px;
+  width:130px;
+  height:50px;
+  position: relative;
+
 
    
 }
 
 .fotorama{
-    width:15%;
+    width:90%;
     margin: 0 auto;
 }
 
@@ -102,7 +90,7 @@ left:100px;
 
 .textbox1{
 
-  width:15%;
+  width:90%;
   margin:0 auto;
 height: 130px;
 text-align: left;
@@ -127,7 +115,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 .imagebox1{
 background-image:url('../images/solo.png'); 
 background-size: cover;
-  width: 12%;
+  width: 80%;
   margin: 0 auto;
     height:200px;
  position: relative;
@@ -135,7 +123,7 @@ background-size: cover;
 }
 
 .textbox2{
-  width:12%;
+  width:80%;
   height: 120px;
   position: relative;
   margin: 0 auto;
@@ -164,7 +152,7 @@ text-align: left;
 .imagebox2{
 background-image:url('../images/adidas.jpg'); 
 background-size: cover;
-  width: 12%;
+  width: 80%;
   height: 200px;
   position: relative;
     margin: 0 auto;
@@ -173,7 +161,7 @@ background-size: cover;
 }
     
 .textbox3{
-  width:12%;
+  width:80%;
   height: 120px;
   margin:0 auto;
     position:relative;
@@ -419,9 +407,7 @@ footer{
 
 
 
-    .topnav{
-        display:none;
-    }
+
 
 #webnav{
 padding:10px;
@@ -470,9 +456,9 @@ body{
   background-image: url('../images/graffiti1.png');
     background-repeat: no-repeat;
    background-attachment: fixed;
+  margin:0;
   width:100vw;
 background-size: cover;
-    margin:none;
 }
 
     .box{
@@ -480,7 +466,8 @@ background-size: cover;
         background-color: white;
         width:45%;
         margin: 0 auto;
-      position:relative;
+      
+        position:relative;
         bottom:170px;
     }
 
