@@ -1,6 +1,6 @@
 
 function openNav() {
-    document.getElementById("sideNavigation").style.width = "220px";
+    document.getElementById("sideNavigation").style.width = "200px";
     document.getElementById("main").style.marginLeft = "250px";
 }
 
