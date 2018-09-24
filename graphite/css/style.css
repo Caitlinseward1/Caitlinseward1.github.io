@@ -1,5 +1,5 @@
 
-container1{
+#container1{
 width: 100%; /* 1280px */
 margin: 0 auto;
 display:flex;
@@ -9,19 +9,9 @@ align-content: center;
 }
 
 
-    
-    
-    #boxcontent{
-        display: flex;
-    justify-content: center;
-    align-items: center;   
-    }
-
-
 #webnav{
     display:none;
 }
-
 
 
 .sidenav{
@@ -66,11 +56,13 @@ align-content: center;
 }
 
 
+.topnav {
+    display:block;
+    
+    width:100%;
+    
+    padding:none;
 
-
-.topnav a{
-  float: left;
-    padding-left:10px;
 
   
 }
@@ -81,9 +73,8 @@ align-content: center;
 }
 
 svg{
-  width: 10%;
-  
-fill: black;
+  width: 5%;
+  fill: black;
   
    
 }
@@ -93,35 +84,28 @@ svg:hover{
 }
 
 #logo{
-  width:130px;
-  height:50px;
-  position: relative;
-left:400px;
-top:140px;
+  width:5%;
+  margin: 0 auto;
+    position: relative;
+    bottom:40px;
+left:100px;
+
    
 }
 
-
-#box{
-display:none;
+.fotorama{
+    width:15%;
+    margin: 0 auto;
 }
 
-
- .fotorama{
-        width:40%;
-        margin: 0 auto;
-     position:relative;
-     left:400px;
-    }
 
 
 .textbox1{
 
-  width:40%;
-  padding-left: 10px;
-height: 180px;
-
-  text-align: left;
+  width:15%;
+  margin:0 auto;
+height: 130px;
+text-align: left;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
     
@@ -132,11 +116,86 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
     .textbox1 p{
        position:relative;
-        top:10px;
-        left:30px;  
+        bottom:10px;
+       padding-left:10px;
     }
 
+.textbox1 h6{
+    padding:5px;
+}
 
+.imagebox1{
+background-image:url('../images/solo.png'); 
+background-size: cover;
+  width: 12%;
+  margin: 0 auto;
+    height:200px;
+ position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textbox2{
+  width:12%;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+bottom:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align: left;
+}
+
+.textbox2 span{
+    position:relative;
+    left:10px;
+    bottom:10px;
+}
+
+.textbox2 p{
+    position:relative;
+    left:10px;
+    bottom:10px;
+}
+
+
+.textbox2 h6{
+    padding:5px;
+}
+   
+.imagebox2{
+background-image:url('../images/adidas.jpg'); 
+background-size: cover;
+  width: 12%;
+  height: 200px;
+  position: relative;
+    margin: 0 auto;
+  top:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    
+.textbox3{
+  width:12%;
+  height: 120px;
+  margin:0 auto;
+    position:relative;
+    top:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+    
+ .textbox3 span{
+        position:relative;
+        left:10px;
+     bottom:10px;
+    }
+    
+    .textbox3 p{
+        position:relative;
+        left:10px;
+        bottom:10px;
+    }
+    .textbox3 h6{
+       padding:5px;
+    }
 
 h6{
   font-family:'Space Mono', monospace;
@@ -151,6 +210,7 @@ h6:hover{
 
 h1{
   text-align: center;
+    font-size:10px;
   font-family: 'Doppio One', sans-serif;
   text-transform: uppercase;
  
@@ -266,7 +326,74 @@ font-family: 'Helvetica', sans-serif;
 
 }
 
+footer{
+    display:none;
+}
 
+.logo1{
+    display:none;
+}
+
+.nav2{
+   display:none;
+}
+
+.nav3{
+    display:none;
+}
+
+.title{
+    display:none;
+}
+
+.link{
+
+  font-size:1em;
+  font-weight: bold;
+  text-decoration: none;
+  font-family:'Doppio One', sans-serif;
+  color: #000;
+    position: relative;
+    
+}
+
+.link1{
+  font-size:1em;
+  font-weight: bold;
+  text-decoration: none;
+  font-family:'Doppio One', sans-serif;
+  color: #000;
+
+}
+
+.link2{
+  font-size:1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  font-family:'Doppio One', sans-serif;
+  color: #000;
+  left:40px;
+}
+
+.underline {
+  background-image: linear-gradient(transparent calc(100% - 10px), #a975ff 10px);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 1s;
+}
+
+.link:hover .underline {
+  background-size: 100% 100%;
+}
+
+.link1:hover .underline {
+  background-size: 100% 100%;
+}
+
+.link2:hover .underline {
+  background-size: 100% 100%;
+}
+    
 
 
 @media screen and (min-width:500px) {
@@ -292,7 +419,9 @@ font-family: 'Helvetica', sans-serif;
 
 
 
-
+    .topnav{
+        display:none;
+    }
 
 #webnav{
 padding:10px;
@@ -341,9 +470,9 @@ body{
   background-image: url('../images/graffiti1.png');
     background-repeat: no-repeat;
    background-attachment: fixed;
-  margin:0;
   width:100vw;
 background-size: cover;
+    margin:none;
 }
 
     .box{
@@ -351,8 +480,7 @@ background-size: cover;
         background-color: white;
         width:45%;
         margin: 0 auto;
-      
-        position:relative;
+      position:relative;
         bottom:170px;
     }
 
@@ -623,53 +751,6 @@ left:20px;
 
 }
   
-.link{
-
-  font-size:2em;
-  font-weight: bold;
-  text-decoration: none;
-  font-family:'Doppio One', sans-serif;
-  color: #000;
-left:40px;
-}
-
-.link1{
-  font-size:1.5em;
-  font-weight: bold;
-  text-decoration: none;
-  font-family:'Doppio One', sans-serif;
-  color: #000;
-  left:40px;
-}
-
-.link2{
-  font-size:1.2em;
-  font-weight: bold;
-  text-decoration: none;
-  font-family:'Doppio One', sans-serif;
-  color: #000;
-  left:40px;
-}
-
-.underline {
-  background-image: linear-gradient(transparent calc(100% - 10px), #a975ff 10px);
-  background-repeat: no-repeat;
-  background-size: 0% 100%;
-  transition: background-size 1s;
-}
-
-.link:hover .underline {
-  background-size: 100% 100%;
-}
-
-.link1:hover .underline {
-  background-size: 100% 100%;
-}
-
-.link2:hover .underline {
-  background-size: 100% 100%;
-}
-    
 
 #arrowsvg svg{
     height:80px;
@@ -712,6 +793,7 @@ top:30px;
 }
 
 .nav2{
+    display:block;
   width:70px;
   height:50px;
   position: relative;
@@ -740,6 +822,7 @@ text-decoration: line-through;
 
 
 .nav3{
+display:block;
   width:200px;
   height:50px;
   position: relative;
@@ -763,5 +846,17 @@ text-decoration: line-through;
 color:#a975ff;
 text-decoration: line-through;
 }
+    
+ .link{
+
+  font-size:2em;
+  
+}
+    
+    .link1{
+  font-size:1.5em;
+ 
+}
+
 
 }
