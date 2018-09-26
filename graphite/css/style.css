@@ -714,7 +714,10 @@ background-size:cover;
   top:300px;
 }
     
-
+    .simagebox4{
+       position:relative;
+        bottom:500px;
+    }
 
 .left4{
      display:block;
@@ -733,7 +736,6 @@ left:20px;
      display:block;
   float:right;
   right:110px;
- 
   position: relative;
 
 }
@@ -759,7 +761,7 @@ display:block;
  position: relative;
  width:100%;
    
-top:380px;
+top:280px;
  margin: 0 auto;
  height:280px;
  background-color: black ;
