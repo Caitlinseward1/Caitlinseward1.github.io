@@ -676,11 +676,20 @@ left:20px;
     
 }
 
-
+    
+   #simagebox3{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position:relative;
+       bottom:340px;
+       
+        
+    }
 
 .left3{
      display:block;
-  float:left;
+  
   background-image: url('../images/travis.jpg');
 background-size:cover;
   position: relative;
@@ -694,11 +703,10 @@ background-size:cover;
 
 .right3{
      display:block;
-  float:right;
+ 
   position: relative;
   height:150px;
- 
-  right:450px;
+ left:50px;
 }
 
 .line2{
@@ -706,7 +714,7 @@ background-size:cover;
   height:1px;
   background-color: black;
   position: relative;
-    bottom:90px;
+    bottom:370px;
   
 }
 
@@ -727,9 +735,12 @@ background-size:cover;
   top:300px;
 }
     
-    .simagebox4{
-       position:relative;
-        bottom:500px;
+    #simagebox4{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position:relative;
+     
     }
 
 .left4{
@@ -738,7 +749,6 @@ background-image: url('../images/northface.jpg');
 background-size:cover;
 width:170px;
 height:150px;
-float:left;
 position: relative;
 left:20px;
 
@@ -747,8 +757,7 @@ left:20px;
 
 .right4{
      display:block;
-  float:right;
-  right:110px;
+  left:50px;
   position: relative;
 
 }
