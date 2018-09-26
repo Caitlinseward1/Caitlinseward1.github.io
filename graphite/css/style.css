@@ -481,8 +481,7 @@ background-size:cover;
         background-color: white;
         width:45%;
         margin: 0 auto;
-
-        position:relative;
+position:relative;
         bottom:275px;
     }
 
@@ -723,7 +722,7 @@ background-size:cover;
   height:1px;
   background-color:black;
   position: relative;
-  top:105px;
+  bottom:310px;
 }
     
     
@@ -732,7 +731,7 @@ background-size:cover;
   height:1px;
   background-color:black;
   position: relative;
-  top:300px;
+  bottom:260px;
 }
     
     #simagebox4{
@@ -740,6 +739,7 @@ background-size:cover;
         flex-wrap: wrap;
         flex-direction: row;
         position:relative;
+        bottom:280px;
      
     }
 
@@ -783,7 +783,6 @@ display:block;
  position: relative;
  width:100%;
    
-top:280px;
  margin: 0 auto;
  height:280px;
  background-color: black ;
