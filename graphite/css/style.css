@@ -696,7 +696,7 @@ background-size:cover;
   position: relative;
   height:150px;
   bottom:50px;
-  right:350px;
+  right:450px;
 }
 
 .line2{
@@ -746,7 +746,7 @@ left:20px;
 .right4{
      display:block;
   float:right;
-  right:5px;
+  right:110px;
   bottom:10px;
   position: relative;
 
@@ -811,7 +811,6 @@ text-transform: uppercase;
   font-family: 'Space Mono', monospace;
   color: white;
   display:block;
-  transition: 0.3s;
   position:relative;
   
 }
@@ -838,8 +837,7 @@ display:block;
   font-family: 'Space Mono', monospace;
   color: white;
   display:block;
-  transition: 0.3s;
-    text-transform: uppercase
+text-transform: uppercase;
 }
 
 
