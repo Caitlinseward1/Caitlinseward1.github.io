@@ -620,7 +620,7 @@ height:150px;
 float:left;
 position: relative;
 left:20px;
-bottom:450px;
+
 }
 
 
@@ -628,7 +628,7 @@ bottom:450px;
      display:block;
   float:right;
   right:340px;
-  bottom:460px;
+  
   position: relative;
 
 }
@@ -649,7 +649,7 @@ bottom:450px;
   background-image: url('../images/newbalance.jpg');
   position: relative;
 right:150px;
-bottom:260px;
+
   height:150px;
   width:170px;
   
@@ -660,7 +660,7 @@ bottom:260px;
   float:right;
   position: relative;
   height:150px;
-    bottom:420px;
+    
 }
 
 
@@ -674,7 +674,7 @@ background-size:cover;
   height:150px;
   width:170px;
     left:20px;
-    bottom:220px;
+
  
 
 }
@@ -684,7 +684,7 @@ background-size:cover;
   float:right;
   position: relative;
   height:150px;
-  bottom:380px;
+ 
   right:450px;
 }
 
@@ -725,7 +725,7 @@ height:150px;
 float:left;
 position: relative;
 left:20px;
-bottom:170px;
+
 }
 
 
@@ -733,7 +733,7 @@ bottom:170px;
      display:block;
   float:right;
   right:110px;
-  bottom:180px;
+ 
   position: relative;
 
 }
