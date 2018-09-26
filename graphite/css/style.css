@@ -609,7 +609,14 @@ text-transform: uppercase;
   bottom: 470px;
 }
     
-
+    #simagebox1{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position:relative;
+        bottom:440px;
+        
+    }
 
 .left1{
      display:block;
@@ -617,18 +624,17 @@ background-image: url('../images/cardi.jpg');
 background-size:cover;
 width:170px;
 height:150px;
-float:left;
 position: relative;
 left:20px;
+
 
 }
 
 
 .right1{
      display:block;
-  float:right;
-  right:340px;
-  
+ left:50px;
+
   position: relative;
 
 }
@@ -638,18 +644,25 @@ left:20px;
   height:0.75px;
   background-color:black;
   position: relative;
- bottom:280px;
+ bottom:430px;
 }
     
+   #simagebox2{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position:relative;
+       bottom:400px;
+        
+    }
 
 
 .left2{
      display:block;
-  float:left;
+  
   background-image: url('../images/newbalance.jpg');
   position: relative;
-right:150px;
-
+    left:20px;
   height:150px;
   width:170px;
   
@@ -657,7 +670,7 @@ right:150px;
 
 .right2{
      display:block;
-  float:right;
+  left:50px;
   position: relative;
   height:150px;
     
