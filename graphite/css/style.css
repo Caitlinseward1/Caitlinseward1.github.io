@@ -864,17 +864,14 @@ text-decoration: line-through;
  
 }
 
-
-#arrowsvg svg{
-    height:80px;
-    width:90px;
-    position:relative;
-   
-    right:10px;
-
-}
+    #arrowsvg svg{
+        position:relative;
+        bottom:500px;
+    }
 
 
-
+    .no{
+        cursor: not-allowed;
+    }
     
 }
