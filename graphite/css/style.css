@@ -386,9 +386,9 @@ footer{
     
 #arrowsvg svg{
     width:10%;
-    left:150px;
+    left:160px;
     position:relative;
-    top:50px;
+    padding-top:20px;
     fill:black;
 }
 
@@ -766,8 +766,8 @@ left:20px;
     width:90px;
     position:relative;
     fill:black;
-    top:200px;
-    left:100px;
+   bottom:150px;
+    left:400px;
 }
 
 #arrowsvg svg:hover{
@@ -864,14 +864,16 @@ text-decoration: line-through;
  
 }
 
-    #arrowsvg svg{
-        position:relative;
-        bottom:500px;
-    }
-
 
     .no{
         cursor: not-allowed;
     }
     
+
+    
+    
+    
 }
+
+
+
